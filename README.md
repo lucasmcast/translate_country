@@ -1,1 +1,1 @@
-# Tranlate Name Country
+# Translate Name Country
