@@ -1,8 +1,8 @@
-from en_us import COUNTRIES_ENUS
-from pt_br import COUNTRIES_PTBR
+from .en_us import COUNTRIES_ENUS
+from .pt_br import COUNTRIES_PTBR
 
 def translate_en_to_pt(country_name):
-    """Função faz a tradução do nome do pais para portugues-br"""
+    """Função faz a tradução do nome do pais de ingles para portugues-br"""
     country_pt = None
 
     for key, value in COUNTRIES_ENUS.items():
